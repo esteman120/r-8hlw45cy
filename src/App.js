@@ -27,9 +27,9 @@ class App extends Component {
   }
 
   ocultar(e){
-
+      let valor = e.target.checked;
       this.setState({
-        valor:e.target.checked
+        valor: valor
       })
   }
 }
